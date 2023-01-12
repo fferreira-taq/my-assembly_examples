@@ -1,0 +1,69 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+004     @WRITE_PROGRAM_MEMORY8.P2
+008     PSP_DATA
+015-016 CCP_1
+015     CCP_1_LOW
+016     CCP_1_HIGH
+01B-01C CCP_2
+01B     CCP_2_LOW
+01C     CCP_2_HIGH
+020     aux
+021     @TRIS_C
+022     main.@SCRATCH
+023     @delay_ms1.P1
+023     @PRINTF_D_9600_62_63.P2
+024     @PRINTF_D_9600_62_63.P1
+025     @PRINTF_D_9600_62_63.@SCRATCH
+026     @PRINTF_D_9600_62_63.@SCRATCH
+027     @PRINTF_D_9600_62_63.@SCRATCH
+028     @PRINTF_D_9600_62_63.@SCRATCH
+029     @DIV88.P1
+02A     @DIV88.P1
+02B     @DIV88.@SCRATCH
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+07B     @SCRATCH
+09C.6   C1OUT
+09C.7   C2OUT
+10D-10E @READ_PROGRAM_MEMORY8.P1
+10D-10E @WRITE_PROGRAM_MEMORY8.P2
+
+009A  @delay_ms1
+00B1  main
+0004  @const55
+001A  @DIV88
+002F  @PRINTF_D_9600_62_63
+00B1  @cinit
+
+Project Directory:
+    F:\teste PIC's 877A\
+
+Project Files:
+    serial_tx.c
+    serial_tx.h
+    C:\Arquivos de programas\PICC\devices\16F877A.h
+
+Units:
+    serial_tx.c (main)
+
+Compiler Settings:
+    Processor:      PIC16F877A
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      serial_tx.err
+    Ext Symbols: serial_tx.esym
+    INHX8:       serial_tx.hex
+    Symbols:     serial_tx.sym
+    List:        serial_tx.lst
+    Debug/COFF:  serial_tx.cof
+    Project:     serial_tx.PJT
+    Call Tree:   serial_tx.tre
+    Statistics:  serial_tx.sta

@@ -1,0 +1,50 @@
+
+ROM used: 284 (3%)
+          284 (3%) including unused fragments
+
+          1 Average locations per line
+          20 Average locations per statement
+
+RAM used: 9 (2%) at main() level
+          18 (5%) worst case
+
+Stack used: 2 worst case (out of 8 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   25    14 100  serial_tx.c
+   17     0   0  serial_tx.h
+  312     0   0  C:\Arquivos de programas\PICC\devices\16F877A.h
+----- -----
+  354    14 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     23   8   1             @delay_ms1
+0    107  38   1   320  3.2  main
+0     22   8   0             @const55
+0     21   7   3             @DIV88
+0    107  38   6             @PRINTF_D_9600_62_63
+
+Program metrics:
+    Functions               1
+    Statements              14
+    Comments                74
+    Volume (V)              329
+    Difficilty (D)          2.8
+    Effort to implement (E) 921
+    Time to implement (T)   1 minutes
+    Est Delivered Bugs (B)  0
+    Cyclomatic Complexity   1
+    Maintainability (MI)    132
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-007FF   280  1764  
+00800-00FFF     0  2048  
+01000-017FF     0  2048  
+01800-01FFF     0  2048  
+
+
+

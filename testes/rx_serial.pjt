@@ -1,0 +1,28 @@
+[PROJECT]
+Target=F:\teste PIC's 877A\rx_serial.hex
+Development_Mode=
+Processor_Text=PIC16F877A
+ToolSuite=CCS
+Processor=0x877A
+[F:\teste PIC's 877A\rx_serial]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+[mru-list]
+1=F:\teste PIC's 877A\rx_serial.c
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+[Opened Files]
+1=rx_serial.c
+2=F:\soft_starter\rx_serial.c
+3=C:\Arquivos de programas\PICC\devices\16F877A.h
+4=
+[Target Data]
+OptionString=-p +FM
+FileList=F:\teste PIC's 877A\rx_serial.c
+[Units]
+Count=1
+1=rx_serial.c (main)
